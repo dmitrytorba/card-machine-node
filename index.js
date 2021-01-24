@@ -16,6 +16,7 @@ app.use(
     {
       watchPg: true,
       graphiql: true,
+      enableCors: true,
       enhanceGraphiql: true,
     }
   )
